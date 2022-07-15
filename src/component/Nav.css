@@ -1,0 +1,32 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+div{
+    
+}
+div>p{
+    background-color: #666;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+.nav>h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav>ul{
+    display: flex;
+}
+.nav>ul>li{
+    padding: 0 20px;
+}
